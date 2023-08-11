@@ -3,6 +3,7 @@ import functions
 
 todos = functions.get_todos()
 
+
 def add_todo():
     new_todo = st.session_state.new_todo + "\n"
     if new_todo:
